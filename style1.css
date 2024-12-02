@@ -219,7 +219,19 @@ transition: 0.2s ease-out ;
 }
 .cta-section{
   background-color: #183b54;
-  padding: 120px var();
+  margin-top: 50px;
+  padding: 120px var(--padding-inline-section) 80px;
+
+}
+.cta-cantainer{
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.cta-cantainer p{
+  margin-top: 30px;
+  color: white;
 }
 footer{
   padding-block: 25px;
@@ -238,8 +250,16 @@ footer{
   gap: 20px;
 
 }
-.link-column a{
-  color: #183b54;
+.link-column a:hover
+{
+  color:var(--accent-color-dark);
+}
+.subfooter-cantainer{
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: var(--padding-inline-section);
+
 }
 
 .spacer{
